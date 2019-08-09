@@ -1,0 +1,26 @@
+<ioc
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+    xmlns='http://schemas.mandiant.com/2010/ioc' id='712d781b-8410-43a1-a231-9465845d9e7c' last-modified='2019-07-22T17:33:49.378Z'>
+    <short_description>This is a test IOC</short_description>
+    <description>This is a test IOC</description>
+    <authored_by>IOC01</authored_by>
+    <authored_date>2019-07-22T17:33:49.378Z</authored_date>
+    <links/>
+    <definition>
+        <Indicator operator='OR' id='5a69d89e-184b-4c6b-9ee8-674b90c3d23e'>
+            <IndicatorItem condition='contains' id='7a467dc0-e4ad-4164-bfc7-e449b625b62a'>
+                <Context document='UrlHistoryItem' search='UrlHistoryItem/URL' type='mir'/>
+                <Content type='string'>https://www.office.com</Content>
+            </IndicatorItem>
+            <IndicatorItem condition='contains' id='c85e2c39-e3cf-4deb-9698-05baacaf74f0'>
+                <Context document='UrlHistoryItem' search='UrlHistoryItem/URL' type='mir'/>
+                <Content type='string'>http://wrs71.winshipway.com</Content>
+            </IndicatorItem>
+            <IndicatorItem condition='contains' id='f638bdc9-7dd4-412f-ab70-40edde50fc4d'>
+                <Context document='UrlHistoryItem' search='UrlHistoryItem/URL' type='mir'/>
+                <Content type='string'>http://wrs81.winshipway.com</Content>
+            </IndicatorItem>
+        </Indicator>
+    </definition>
+</ioc>
